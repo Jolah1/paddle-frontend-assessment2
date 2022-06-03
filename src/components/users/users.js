@@ -4,17 +4,13 @@ import axios from 'axios'
 import styles from './users.module.css'
 import {FaBackward, FaForward} from 'react-icons/fa'
 
-//github API url
-// const currentPage = 1;
-// const pages = [1,2,3,4,5]
-
 
 const Users = () => {
 
   const [user, setUser] = useState([])
   const [page, setPage] = useState(1)
 
-  //github API url
+  
   const url = `https://api.github.com/search/repositories?q=created:>2022-05-03&sort=stars&order=desc&page=2=${page}`
   console.log(page);
 
@@ -54,7 +50,7 @@ const Users = () => {
   return (
     <div>
       <div className={styles.heading}>
-        <h2> most starred github repositories</h2>
+        <h2> MOST STARRED GITHUB REPOSITORIES IN THE LAST 30 DAYS</h2>
       </div>
       
       <div className={styles.repos}>

@@ -28,9 +28,9 @@ img{
     max-width: 900px;
     height: 130px;
     display: flex;
-    border-radius: 5px;
+    border-radius: 10px;
     align-items: center;
-    background-color: #ededed;
+    background-color: #b948b1;
     margin: auto;    
 }
 
