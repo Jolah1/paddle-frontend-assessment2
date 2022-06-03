@@ -21,6 +21,8 @@ This is a project to display the number of most starred github repositories in t
 
 ## Project Live link
 
+https://most-starred-githubrepo.netlify.app/
+
 ### Contact
 
 https://www.linkedin.com/in/jolade-okunlade-1840a6138/
