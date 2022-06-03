@@ -1,0 +1,28 @@
+.heading h2{
+    text-align: center;
+    text-transform: capitalize;
+    margin: 12px;
+}
+
+.buttons{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+    margin: auto;
+    margin: 20px auto;
+}
+
+.action{
+    background: transparent;
+    border: none;
+    padding: 10px 15px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ededed;
+    margin: 0 15px;
+    cursor: pointer;
+}

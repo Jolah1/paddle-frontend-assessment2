@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    margin: 30px 15px;
+    height: auto;
+}
+
+.userDetails{
+    width: 100%;
+    margin-right: 10px;
+    height: auto;
+    margin-top: -4px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 30px 10px 30px 25px;
+}
+
+img{
+    padding: 0;
+    margin: 0;
+}
+
+.userContainer{
+    max-width: 900px;
+    height: 130px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    background-color: #ededed;
+    margin: auto;    
+}
+
+.repoName{
+    margin-bottom: 15px;
+    width: 100%;
+}
+.repoName h2{
+    text-transform: capitalize;
+}
+
+.repoName h2{
+    margin-bottom: 5px;
+}
+
+.description {
+    text-align: justify;
+    overflow: auto;
+    width: 100%;
+    max-height: 45px;
+}
+
+.repoDetails{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.avatar{
+    width: 120px;
+    height: 130px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-top: 4px;
+    padding-bottom: 0;
+}
+
+
+@media screen  and (max-width: 600px) {
+    .userContainer {
+        max-width: 400px;
+        height: 430px;
+        display: flex;
+        background: none;
+        flex-direction: column;
+        margin-bottom: 35px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .avatar {
+        width: 300px;
+        height: 250px;
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 0;
+        padding: 0;
+        margin-bottom: -10px;
+    }
+
+    .userDetails{
+        background-color: #ededed;
+        max-width: 400px;
+        padding: 13px;
+        margin: 0;
+        max-width: 300px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 0;
+    }
+
+    .repoDetails span{
+        margin-bottom: 8px;
+    }
+
+    .repoName h2{
+        overflow-x: auto;
+    }
+
+
+}
