@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import User from '../user/User'
+import User from '../user/user'
 import axios from 'axios'
 import styles from './users.module.css'
 import {FaBackward, FaForward} from 'react-icons/fa'
